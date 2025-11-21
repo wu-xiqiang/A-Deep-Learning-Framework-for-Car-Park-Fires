@@ -1,0 +1,7 @@
+Simulation time: TIME T_END = 480
+Data output interval: DUMP DT_SLCF= 1, DT_DEVC= 1, DT_SL3D=1
+Initial temperature: TMP_FRONT=298.15
+Open boundary settings: VENT XB = 0 12 0 0 0 3, SURF_ID = 'OPEN'
+Fire source settings: OBST ID='Burner', XB = 5 7 3.5 8.5 0 0.5, SURF_IDS = 'FIRE','INERT','INERT'
+Sensor arrangement: DEVC ID = '0_0' QUANTITY='TEMPERATURE' XYZ=0 0 2.7
+Temperature slicing settings: SLCF PBZ = 2 QUANTITY='TEMPERATURE'
